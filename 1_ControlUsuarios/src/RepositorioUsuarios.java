@@ -6,7 +6,7 @@ public class RepositorioUsuarios {
     public RepositorioUsuarios() {
         asegurarArchivoExiste();
     }
-
+    
     public void asegurarArchivoExiste() {
         File archivo = new File(nombreArchivo);
         if (!archivo.exists()) {

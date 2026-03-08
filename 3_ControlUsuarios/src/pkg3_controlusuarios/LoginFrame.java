@@ -151,6 +151,7 @@ public class LoginFrame extends javax.swing.JFrame {
                 new LoginFrame(repo).setVisible(true);
             }
         });
+      
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
