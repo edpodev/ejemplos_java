@@ -4,11 +4,13 @@ public class Estudiante extends Persona implements Runnable {
     
     private String lenguajeAprendizaje;
     private Zona zona; 
-
-    public Estudiante(String nombre, String lenguajeAprendizaje) {
+    private HojaDeEntregas hojaCompartida;
+    
+    public Estudiante(String nombre, String lenguajeAprendizaje, HojaDeEntregas hoja) {
         super(nombre); 
         this.lenguajeAprendizaje = lenguajeAprendizaje;
-        this.zona = new Zona();
+        this.zona = new Zona(); 
+        this.hojaCompartida = hoja;
     }
 
     public Zona getZona() {
@@ -24,18 +26,18 @@ public class Estudiante extends Persona implements Runnable {
     @Override
     public void run() {
         realizarExamen();
+        hojaCompartida.registrarEntrega(getNombre());
     }
-
   
     public void realizarExamen() {
         for (int i = 1; i <= 3; i++) {
-            System.out.println(getNombre() + " está escribiendo la pregunta " + i + " en " + lenguajeAprendizaje + "...");
+            System.out.println(getNombre() + " está escribiendo la pregunta " + i + "...");
             try {
                 Thread.sleep((long) (Math.random() * 1000));
             } catch (InterruptedException e) {
-                System.out.println("El examen de " + getNombre() + " fue interrumpido.");
+                System.out.println("Error.");
             }
         }
-        System.out.println("¡" + getNombre() + " ha terminado y entregado su examen!");
+        System.out.println( getNombre() + " se levanta de su asiento!");
     }
 }
