@@ -3,21 +3,27 @@ package poo_01;
 public class POO_01 {
 
     public static void main(String[] args) {
-      
+        
+   
         Estudiante e1 = new Estudiante("Ana", "Java");
         Estudiante e2 = new Estudiante("Carlos", "Python");
+        Estudiante e3 = new Estudiante("Lucía", "C++");
+        Estudiante e4 = new Estudiante("Mateo", "JavaScript");
+        Estudiante e5 = new Estudiante("Elena", "C#");
+        Estudiante e6 = new Estudiante("Diego", "Ruby");
+
 
         Curso curso = new Curso("Programación I", 10);
+        
+
         curso.matricularEstudiante(e1);
         curso.matricularEstudiante(e2);
+        curso.matricularEstudiante(e3);
+        curso.matricularEstudiante(e4);
+        curso.matricularEstudiante(e5);
+        curso.matricularEstudiante(e6);
 
-        e1.getZona().setPuntosTareas(15.5);
-        e1.getZona().setPuntosParciales(30.0);
-        
-        e2.getZona().setPuntosTareas(20.0);
-        e2.getZona().setPuntosParciales(25.0);
 
-        curso.iniciarClase();
-        curso.mostrarZonas();
+        curso.realizarExamenSecuencial();
     }
 }

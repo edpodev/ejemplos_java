@@ -1,8 +1,9 @@
 package poo_01;
 
-public class Estudiante extends Persona {
+public class Estudiante extends Persona implements Runnable {
+    
     private String lenguajeAprendizaje;
-    private Zona zona;
+    private Zona zona; 
 
     public Estudiante(String nombre, String lenguajeAprendizaje) {
         super(nombre); 
@@ -20,7 +21,21 @@ public class Estudiante extends Persona {
                            " y estoy aprendiendo " + lenguajeAprendizaje + ".");
     }
     
-    public void escribirCodigo() {
-        System.out.println(getNombre() + " está compilando código...");
+    @Override
+    public void run() {
+        realizarExamen();
+    }
+
+  
+    public void realizarExamen() {
+        for (int i = 1; i <= 3; i++) {
+            System.out.println(getNombre() + " está escribiendo la pregunta " + i + " en " + lenguajeAprendizaje + "...");
+            try {
+                Thread.sleep((long) (Math.random() * 1000));
+            } catch (InterruptedException e) {
+                System.out.println("El examen de " + getNombre() + " fue interrumpido.");
+            }
+        }
+        System.out.println("¡" + getNombre() + " ha terminado y entregado su examen!");
     }
 }
