@@ -38,4 +38,21 @@ public class Curso {
             estudiantes[i].presentarse();
         }
     }
+    
+    public void realizarExamenSimultaneo() {
+        System.out.println("\n--- ¡Empieza el examen! Todos programan a la vez ---");
+        for (int i = 0; i < inscritos; i++) {
+            Thread hiloEstudiante = new Thread(estudiantes[i]);
+            hiloEstudiante.start(); 
+        }
+    }
+    
+    public void realizarExamenSecuencial() {
+        System.out.println("\n--- 🚶‍♂️ INICIA EL EXAMEN SECUENCIAL (Uno por uno) ---");
+        for (int i = 0; i < inscritos; i++) {
+            System.out.println(">> Turno de " + estudiantes[i].getNombre() + " <<");
+            estudiantes[i].realizarExamen(); 
+        }
+        System.out.println("--- Todos los exámenes secuenciales han terminado ---\n");
+    }
 }
