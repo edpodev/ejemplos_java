@@ -4,26 +4,19 @@ public class POO_01 {
 
     public static void main(String[] args) {
         
-   
-        Estudiante e1 = new Estudiante("Ana", "Java");
-        Estudiante e2 = new Estudiante("Carlos", "Python");
-        Estudiante e3 = new Estudiante("Lucía", "C++");
-        Estudiante e4 = new Estudiante("Mateo", "JavaScript");
-        Estudiante e5 = new Estudiante("Elena", "C#");
-        Estudiante e6 = new Estudiante("Diego", "Ruby");
-
+        HojaDeEntregas hojaUnica = new HojaDeEntregas();
+        
+        Estudiante e1 = new Estudiante("Ana", "Java", hojaUnica);
+        Estudiante e2 = new Estudiante("Carlos", "Python", hojaUnica);
+        Estudiante e3 = new Estudiante("Lucía", "C++", hojaUnica);
 
         Curso curso = new Curso("Programación I", 10);
-        
-
         curso.matricularEstudiante(e1);
         curso.matricularEstudiante(e2);
         curso.matricularEstudiante(e3);
-        curso.matricularEstudiante(e4);
-        curso.matricularEstudiante(e5);
-        curso.matricularEstudiante(e6);
 
+        System.out.println("--- ¡INICIA EL EXAMEN FINAL! ---");
 
-        curso.realizarExamenSecuencial();
+        curso.realizarExamenSimultaneo(); 
     }
 }
