@@ -1,0 +1,40 @@
+GT001|GT|Carlos Ruiz|9|Delantero|Comun
+GT002|GT|Marco Pappa|10|Mediocampista|Rara
+GT003|GT|Paulo Cesar Motta|1|Portero|Comun
+GT004|GT|Maynor Figueroa|5|Defensa|Poco Comun
+GT005|GT|Jose Manuel Contreras|7|Mediocampista|Comun
+MX001|MX|Guillermo Ochoa|1|Portero|Rara
+MX002|MX|Andres Guardado|18|Mediocampista|Rara
+MX003|MX|Javier Hernandez|14|Delantero|Ultra Rara
+MX004|MX|Rafael Marquez|4|Defensa|Legendaria
+MX005|MX|Hirving Lozano|22|Delantero|Poco Comun
+AR001|AR|Lionel Messi|10|Delantero|Legendaria
+AR002|AR|Angel Di Maria|11|Extremo|Ultra Rara
+AR003|AR|Emiliano Martinez|23|Portero|Rara
+AR004|AR|Nicolas Otamendi|19|Defensa|Poco Comun
+AR005|AR|Rodrigo De Paul|7|Mediocampista|Rara
+BR001|BR|Neymar Jr|10|Delantero|Legendaria
+BR002|BR|Alisson Becker|1|Portero|Ultra Rara
+BR003|BR|Casemiro|5|Mediocampista|Rara
+BR004|BR|Vinicius Jr|20|Extremo|Ultra Rara
+BR005|BR|Thiago Silva|3|Defensa|Poco Comun
+ES001|ES|Iker Casillas|1|Portero|Legendaria
+ES002|ES|Sergio Ramos|15|Defensa|Ultra Rara
+ES003|ES|Andres Iniesta|8|Mediocampista|Legendaria
+ES004|ES|David Villa|7|Delantero|Rara
+ES005|ES|Xavi Hernandez|6|Mediocampista|Ultra Rara
+FR001|FR|Kylian Mbappe|10|Delantero|Legendaria
+FR002|FR|Antoine Griezmann|7|Delantero|Ultra Rara
+FR003|FR|Karim Benzema|9|Delantero|Ultra Rara
+FR004|FR|Raphael Varane|4|Defensa|Rara
+FR005|FR|Hugo Lloris|1|Portero|Rara
+DE001|DE|Manuel Neuer|1|Portero|Ultra Rara
+DE002|DE|Thomas Muller|25|Mediocampista|Rara
+DE003|DE|Toni Kroos|8|Mediocampista|Ultra Rara
+DE004|DE|Mesut Ozil|10|Mediocampista|Rara
+DE005|DE|Miroslav Klose|11|Delantero|Legendaria
+PT001|PT|Cristiano Ronaldo|7|Delantero|Legendaria
+PT002|PT|Bruno Fernandes|8|Mediocampista|Ultra Rara
+PT003|PT|Ruben Dias|3|Defensa|Rara
+PT004|PT|Bernardo Silva|10|Mediocampista|Rara
+PT005|PT|Joao Felix|11|Delantero|Poco Comun

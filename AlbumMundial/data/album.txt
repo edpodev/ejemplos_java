@@ -1,0 +1,8 @@
+GT|Guatemala|5|Azul y Blanco|0|0
+MX|Mexico|5|Verde Rojo y Blanco|0|1
+AR|Argentina|5|Celeste y Blanco|1|0
+BR|Brasil|5|Verde y Amarillo|1|1
+ES|Espana|5|Rojo y Amarillo|2|0
+FR|Francia|5|Azul Blanco y Rojo|2|1
+DE|Alemania|5|Negro Rojo y Dorado|3|0
+PT|Portugal|5|Verde y Rojo|3|1

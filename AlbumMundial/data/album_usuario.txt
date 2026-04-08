@@ -1,0 +1,12 @@
+usuario|no_carta|cantidad|pegada|pagina|fila|columna
+jugador1|GT001|2|1|0|0|0
+jugador1|AR001|1|1|1|0|0
+jugador1|BR001|1|1|1|1|0
+jugador 1|AR002|1|1|1|0|0
+jugador 1|GT005|1|1|0|0|0
+jugador 1|BR005|1|1|1|1|0
+jugador 1|GT004|1|1|0|0|1
+jugador 1|AR003|2|1|1|0|1
+jugador 1|GT003|1|1|0|0|2
+jugador 1|AR004|1|1|1|0|2
+jugador 1|GT001|2|1|0|0|3
